@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Js Popups</title>
+  </head>
+  <body>
+    <h2>Simple Example for Popups</h2>
+    <script>
+        alert("Welcome ")
+        let name =prompt("Enter your name :")
+        console.log(name)
+        let conirmRegister = confirm("Do you want to register ?")
+        if(conirmRegister){
+            alert("You have successfully registered")
+            console.log("User name : " + name)
+
+        }
+        else{
+            alert("Registration cancelled")
+            console.log(name,"User cancelled the registration")
+        }
+    </script>
+  </body>
+</html>
