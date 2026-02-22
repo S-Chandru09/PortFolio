@@ -1,0 +1,11 @@
+let list=["Apple","Mango",3,4,5]
+console.log(list)
+list.push(1)
+list.push("Banana")
+console.log(list)
+list.pop()
+console.log(list)
+list.shift()
+console.log(list)
+list.unshift("Grapes")
+console.log(list)
